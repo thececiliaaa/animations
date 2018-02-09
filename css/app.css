@@ -1,0 +1,6 @@
+/*{outline: 1px solid red;}*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Vidaloka');
+
+body{font-family: 'Cormorant Garamond', serif;}
+h1, h2, h3, h4, h5, h6{font-family: 'Vidaloka', serif;}
+h2{font-size: 1.35rem;}

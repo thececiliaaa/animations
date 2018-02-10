@@ -1,6 +1,52 @@
 /*{outline: 1px solid red;}*/
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Rubik+Mono+One');
 
-body{font-family: 'Cormorant Garamond', serif;}
-h1, h2, h3, h4, h5, h6{font-family: 'Vidaloka', serif;}
-h2{font-size: 1.35rem;}
+body{font-family: 'Inconsolata', monospace; background-color: #e8c79c}
+h1, h2, h3, h4, h5, h6{font-family: 'Rubik Mono One', sans-serif;}
+
+h1{font-size: 5rem;}
+
+.home{
+  text-align: center;
+  padding-top: 180px;
+}
+
+p.sub{
+  font-size: 1.2rem;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.nav{
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.link{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.stache:hover{
+  opacity: 0.7;
+}
+
+.jokes{
+  text-align: center;
+  padding-top: 150px;
+  font-size: 30px;
+}

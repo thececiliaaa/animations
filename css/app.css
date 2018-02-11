@@ -1,7 +1,16 @@
 /*{outline: 1px solid red;}*/
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Rubik+Mono+One');
 
-body{font-family: 'Inconsolata', monospace; background-color: #e8c79c}
+body{
+  font-family: 'Inconsolata', monospace;
+  background-color: #e8c79c;
+  -webkit-animation:fadein 0.9s; animation:fadein 0.9s;
+}
+
+@-webkit-keyframes fadein { from {opacity:0} to {opacity:1} }
+@keyframes fadein { from {opacity:0} to {opacity:1} }
+
+
 h1, h2, h3, h4, h5, h6{font-family: 'Rubik Mono One', sans-serif;}
 
 h1{font-size: 5rem;}
@@ -48,5 +57,12 @@ a:active {
 .jokes{
   text-align: center;
   padding-top: 150px;
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.hi{
+  padding-left: 450px;
+  padding-right: 450px;
+  padding-top: 200px;
+  text-align: center;
 }
